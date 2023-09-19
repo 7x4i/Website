@@ -43,6 +43,22 @@ html{
       padding: 14px 16px;
       text-decoration: none;
     }
+
+    h1{display: inline;
+      color: white;
+      text-align: center;
+      padding: 100px;
+      text-decoration: none;
+      font-size: 80px;}
+      
+    h3{display: inline;
+      color: white;
+      text-align: center;
+      padding: 100px;
+      text-decoration: none;
+      font-size: 80px;
+      font-family: 'Brush Script MT', cursive;}
+    
     
     /* Change the link color to #111 (black) on hover */
     h2 a:hover {
@@ -50,6 +66,6 @@ html{
     }
     
     body {
-        background-image: linear-gradient(rgba(28, 28, 28, 0.45),rgba(28, 28, 28, 0.45)),
-                          url('file:///H:/Year%2011%20programming/Website/Files/noodleackgroudn.png');
+        background-image: linear-gradient(rgba(28, 28, 28, 0.2),rgba(28, 28, 28, 0.2)),
+                          url('file:///H:/Year%2011%20programming/Website/Files/Images and Icons/noodleackgroudn.png');
     }
