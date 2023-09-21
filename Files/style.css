@@ -1,0 +1,143 @@
+/* global styling*/
+html{
+  font-family: 'Kaisei HarunoUmi';font-size: 22px;
+    }
+    
+    /* Styling for the image container and the items inside it */
+    .container{
+      display: flex; 
+      flex-wrap: wrap; 
+    }
+    
+    /*Items for all the screenshots and pictures of your stuff*/
+    .item{
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      width: 30%;
+      min-width: 8rem;
+      margin: auto;
+    }
+     .item-info{
+       padding: 0.1rem;
+       text-align: center;
+     }
+    
+    .item img{
+      width: 100%;
+    }
+    
+    h2 {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      font-size:72px;
+      float: left;
+    }
+    
+    h2 a {
+      display: inline;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    h1{display: inline;
+      color: white;
+      text-align: left;
+      padding: 100px;
+      text-decoration: none;
+      font-weight: lighter;
+      position: absolute;
+      left: 40px;
+      top: 180px;
+      font-size: 120px;}
+      
+    h3{display: inline;
+      color: white;
+      text-align: left;
+      padding: 100px;
+      text-decoration: none;
+      font-weight: 10;
+      position: absolute;
+      left: 40px;
+      top: 290px;
+      font-size: 100px;
+      font-family: 'Brush Script MS';
+    }
+    
+.text{display: inline;
+  color: white;
+  text-align: center;
+  padding: 20;
+  text-decoration: none;
+  font-weight: lighter;
+  position: absolute;
+  left: 975px;
+  top: 1350px;
+  margin: auto;
+  width: 640px; 
+  padding: 50px;
+  font-size: 20px;}
+
+.secthead{display: inline;
+  color: white;
+  text-align: center;
+  padding: 80;
+  text-decoration: none;
+  font-weight: lighter;
+  position: absolute;
+  left: 975px;
+  top: 1200px;
+  margin: auto;
+  width: 640px; 
+  padding: 50px;
+  font-size: 80px;}
+
+img {
+    top:1200px;
+  }
+
+   
+
+
+    /* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  padding:0;
+  margin:0;
+}
+
+.navbar #active{
+  background-color: #1c1c1c;}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+#ramin {
+  width: 801px;
+  position: absolute;
+  top: 1350px;
+  left: 40px;}
+
+    body {
+        background-image: linear-gradient(rgba(28, 28, 28, 0.2),rgba(28, 28, 28, 0.2)),
+                          url('file:///H:/Year%2011%20programming/Website/Files/Images and Icons/noodleackgroudn.png');
+    }
