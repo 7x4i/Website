@@ -80,6 +80,20 @@ html{
   padding: 50px;
   font-size: 20px;}
 
+.text2{display: inline;
+  color: white;
+  text-align: center;
+  padding: 20;
+  text-decoration: none;
+  font-weight: lighter;
+  position: absolute;
+  left: 45px;
+  top: 2460px;
+  margin: auto;
+  width: 640px; 
+  padding: 50px;
+  font-size: 20px;}
+
 .secthead{display: inline;
   color: white;
   text-align: center;
@@ -93,6 +107,21 @@ html{
   width: 640px; 
   padding: 50px;
   font-size: 80px;}
+
+.secthead2{display: inline;
+  color: white;
+  text-align: center;
+  padding: 80;
+  text-decoration: none;
+  font-weight: lighter;
+  position: absolute;
+  left: 60px;
+  top: 2300px;
+  margin: auto;
+  width: 640px; 
+  padding: 50px;
+  font-size: 80px;}
+  
 
 img {
     top:1200px;
@@ -110,6 +139,7 @@ img {
   width: 100%; /* Full width */
   padding:0;
   margin:0;
+  z-index: 100;
 }
 
 .navbar #active{
@@ -131,6 +161,12 @@ img {
   color: black;
 }
 
+#phoe {
+  width: 751px;
+  position: absolute;
+  top: 2350px;
+  left: 840px;}
+
 #ramin {
   width: 801px;
   position: absolute;
@@ -139,5 +175,54 @@ img {
 
     body {
         background-image: linear-gradient(rgba(28, 28, 28, 0.2),rgba(28, 28, 28, 0.2)),
-                          url('file:///H:/Year%2011%20programming/Website/Files/Images and Icons/noodleackgroudn.png');
+                          url('/Users/bean/Downloads/Website/Files/Images and Icons/noodleackgroudn.png');
     }
+
+     /* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  padding:0;
+  margin:0;
+  z-index: 100;
+}
+
+.navbar #active{
+  background-color: #1c1c1c;}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+#phoe {
+  width: 751px;
+  position: absolute;
+  top: 2350px;
+  left: 840px;}
+
+#ramin {
+  width: 801px;
+  position: absolute;
+  top: 1350px;
+  left: 40px;}
+
+    body {
+        background-image: linear-gradient(rgba(28, 28, 28, 0.2),rgba(28, 28, 28, 0.2)),
+                          url('/Users/bean/Downloads/Website/Files/Images and Icons/noodleackgroudn.png');
+    }
+
